@@ -5,7 +5,7 @@ int main() {
     // 여기에 코드를 작성해주세요.
     int score;
     cin >> score;
-    string s = (score = 100) ? "pass" : "failure";
+    string s = (score == 100) ? "pass" : "failure";
     cout << s;
     return 0;
 }
