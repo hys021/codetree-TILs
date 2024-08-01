@@ -8,7 +8,7 @@ int main() {
     if(l>=1.0 && r>=1.0){
         cout << "High";
     }
-    else if((l>=0.5 && l<1.0)&&(r>=0.5 && r<1.0)){
+    else if((l>=0.5)&&(r>=0.5)){
         cout << "Middle";
     }
     else{
