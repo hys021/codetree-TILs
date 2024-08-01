@@ -12,11 +12,27 @@ int main() {
             max = c;
             cout << b;
         }
+        else if(max>c){
+            if(a>c){
+                cout << a;
+            }
+            else{
+                cout << c;
+            }
+        }
     }
     else if(max>b){
         if(max<c){
             max = c;
             cout << a;
+        }
+        else if(max>c){
+            if(b>c){
+                cout << b;
+            }
+            else{
+                cout << c;
+            }
         }
     }
     return 0;
