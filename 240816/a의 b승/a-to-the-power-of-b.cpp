@@ -9,6 +9,9 @@ int main() {
     for(int i=1;i<b;i++){
         prod*=a;
     }
+    if(b==0){
+        prod=1;
+    }
     cout << prod;
     return 0;
 }
