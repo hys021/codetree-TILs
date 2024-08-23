@@ -12,14 +12,13 @@ int main() {
         }
         else{
             satisfied=false;
+            cout << "0";
+            break;
         }
         i++; 
     }
     if(satisfied==true){
         cout << "1";
-    }
-    else{
-        cout << "0";
     }
     return 0;
 }
