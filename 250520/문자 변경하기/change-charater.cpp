@@ -3,8 +3,8 @@ using namespace std;
 
 int main() {
     char a;
-    a="C";
-    a="T";
+    a='C';
+    a='T';
     cout << a;
     // Please write your code here.
     return 0;
