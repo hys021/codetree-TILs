@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int a;
+    char a;
     a="C";
     a="T";
     cout << a;
