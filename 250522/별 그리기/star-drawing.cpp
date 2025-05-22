@@ -19,9 +19,9 @@ int main() {
         for(int k=0; k<=i; k++){
             cout << " ";
         }
-        for(int j=0; j<n-2*i; j++){
-            cout << "*";  
-        }
+        for(int j=0; j<(2*n)-(2*i)-3; j++){
+            cout << "*";
+        } 
         cout << endl;
     }
 
